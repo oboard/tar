@@ -2,7 +2,7 @@
   "name": "bobzhang/tar",
   "version": "0.1.0",
   "readme": "README.md",
-  "repository": "",
+  "repository": "https://github.com/moonbit-community/tar",
   "license": "ISC",
   "keywords": ["tar", "archive", "compression", "streaming"],
   "description": "Pure MoonBit library to read and write tar files with streaming support",
