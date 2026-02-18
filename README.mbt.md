@@ -8,9 +8,10 @@ This is pure MoonBit code with no external dependencies.
 
 **COMPLETED** - The library is fully functional with comprehensive test coverage!
 
-- ✅ Core TAR archive operations (create, add files/directories, extract)
+- ✅ Core TAR archive operations (create, add files/directories/symlinks, extract)
 - ✅ Archive management and statistics
 - ✅ Entry lookup and listing
+- ✅ Byte serialization (to_bytes/from_bytes)
 - ✅ Round-trip create/extract operations
 - ✅ 13 comprehensive tests (all passing)
 - ✅ Complete documentation and examples
@@ -18,7 +19,8 @@ This is pure MoonBit code with no external dependencies.
 ## Features
 
 - Create and manage TAR archives in memory
-- Add files and directories to archives
+- Add files, directories, and symlinks to archives
+- Serialize archives to bytes and decode them back
 - Extract files from archives
 - List archive contents and get statistics
 - Find specific entries by name
@@ -61,4 +63,4 @@ moon test
 
 ## Example
 
-See `example.mbt` for a complete usage demonstration, or check `src/lib/README.md` for detailed API documentation.
+See `example.mbt` for a complete usage demonstration, or `simple_tar.mbt` for the full API surface.
