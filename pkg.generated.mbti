@@ -1,5 +1,5 @@
 // Generated using `moon info`, DON'T EDIT IT
-package "bobzhang/tar"
+package "moonbit-community/tar"
 
 // Values
 pub const BLOCK_SIZE : Int = 512
